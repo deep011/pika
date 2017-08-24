@@ -27,9 +27,6 @@ Pika是一个可持久化的大容量redis存储服务，兼容string、hash、l
 <td height = "100" width = "150"><img src="http://i.imgur.com/vJbAfri.png" alt="YM"></td>
 <td height = "100" width = "150"><img src="http://i.imgur.com/aNxzwsY.png" alt="XM"></td>
 <td height = "100" width = "150"><img src="http://i.imgur.com/mrWxwkF.png" alt="XL"></td>
-<td height = "100" width = "150"><img src="http://i.imgur.com/DX6Ey4p.jpg" alt="LB"></td>
-</tr>
-<tr>
 <td height = "100" width = "150"><img src="http://imgur.com/0oaVKlk.png" alt="YM"></td>
 </tr>
 </table>
@@ -73,8 +70,8 @@ Pika是一个可持久化的大容量redis存储服务，兼容string、hash、l
 5.切换到最新release版本
 
 ```
-	a. 执行 git tag 查看最新的release tag，（如 v2.2.4）
-	b. 执行 git checkout TAG切换到最新版本，（如 git checkout v2.2.4）
+	a. 执行 git tag 查看最新的release tag，（如 v2.2.5）
+	b. 执行 git checkout TAG切换到最新版本，（如 git checkout v2.2.5）
 ```
 
 6.编译
@@ -102,6 +99,10 @@ Pika是一个可持久化的大容量redis存储服务，兼容string、hash、l
 ```
 
 ## 性能 (感谢[deep011](https://github.com/deep011)提供性能测试结果)
+### 注!!!
+本测试结果是在特定环境特定场景下得出的，不能够代表所有环境及场景下的表现，__仅供参考__。
+
+__推荐大家在使用pika前在自己的环境根据自己的使用场景详细测试以评估pika是否满足要求__
 
 ### 测试环境
 
